@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: noto sans;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    position: relative;
+    box-shadow: 0px 0px 37px -13px rgba(0,0,0,1);
+}
+h2{
+    margin: 20px;
+}
+h1{
+    margin: 20px 0 0 20px;
+}
+h3{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    color: #aaaaaa;
+    font-size: smaller;
+    font-family: arial;
+}
+
+
+img{
+    width: 300px;
+}
+
+.cart{
+    width: 50px;
+}
+.colors{
+    width: 45px;
+    margin-bottom: 5px;
+}
+.icons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+}
