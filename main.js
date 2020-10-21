@@ -7,6 +7,7 @@ const colorRed = document.querySelector(".colorRed");
 const colorYel = document.querySelector(".colorYel");
 const colorGre = document.querySelector(".colorGre");
 const image = document.querySelector(".image");
+const addBtn = document.querySelector(".addToChart");
 
 console.log(cart);
 
@@ -29,11 +30,14 @@ selectColor.addEventListener("mouseleave", function(){
 })
 
 colorYel.addEventListener("click", function(){
-    image.src = "chair-yellow.jpg"
+    image.src = "chair-yellow.jpg";
+    selectColor.className = "selectColorBefore";
 })
 colorRed.addEventListener("click", function(){
-    image.src = "chair.jpg"
+    image.src = "chair-red.jpg";
+    selectColor.className = "selectColorBefore";
 })
 colorGre.addEventListener("click", function(){
-    image.src = "chair-green.jpg"
+    image.src = "chair-green.jpg";
+    selectColor.className = "selectColorBefore";
 })

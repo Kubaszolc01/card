@@ -30,7 +30,8 @@ h3{
 
 .image{
    width: 300px;
-   height: 300px;
+   height: 350px;
+   margin: 20px;
 }
 
 .cart{
@@ -63,6 +64,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .addToCart{
     font-size: 1em;
@@ -85,6 +87,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 .color{
     width: 60px;
@@ -110,4 +113,8 @@ h3{
     position: absolute;
     background-color: black;
     opacity: 0;
+}
+h4{
+    width: 100%;
+    text-align: center;
 }
