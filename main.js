@@ -7,7 +7,10 @@ const colorRed = document.querySelector(".colorRed");
 const colorYel = document.querySelector(".colorYel");
 const colorGre = document.querySelector(".colorGre");
 const image = document.querySelector(".image");
-const addBtn = document.querySelector(".addToChart");
+const addBtn = document.querySelector(".addToCart");
+// const fa1 = document.querySelector(".fa1");
+// const fa2 = document.querySelector(".fa2");
+// const fa3 = document.querySelector(".fa3");
 
 console.log(cart);
 
@@ -15,14 +18,20 @@ cart.addEventListener("click", function(){
     buy.className = "buyAfter"
     black.style.opacity = "0.5";
 })
-colors.addEventListener("click", function(){
-    selectColor.className = "selectColorAfter"
-    black.style.opacity = "0.5";
-})
-
 buy.addEventListener("mouseleave", function(){
     black.style.opacity = "0";
     buy.className = "buyBefore";
+})
+
+addBtn.addEventListener("click", function(){
+    black.style.opacity = "0";
+    buy.className = "buyBefore";
+})
+
+
+colors.addEventListener("click", function(){
+    selectColor.className = "selectColorAfter"
+    black.style.opacity = "0.5";
 })
 selectColor.addEventListener("mouseleave", function(){
     black.style.opacity = "0";
