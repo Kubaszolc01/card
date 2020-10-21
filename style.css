@@ -34,6 +34,7 @@ img{
 
 .cart{
     width: 50px;
+    cursor: pointer;
 }
 .colors{
     width: 45px;
@@ -47,4 +48,29 @@ img{
     align-items: center;
     bottom: 20px;
     right: 20px;
+}
+.buy{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    background-color: white;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addToCart{
+    font-size: 1em;
+    color: white;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 25px;
+}
+.black{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: 0;
 }
